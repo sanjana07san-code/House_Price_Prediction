@@ -1,0 +1,9 @@
+Location,Area,Bedrooms,Bathrooms,Floors,Parking,Age,Price
+Chennai,1200,2,2,1,1,5,4500000
+Chennai,1500,3,2,2,1,4,6500000
+Bangalore,1800,3,3,2,2,3,8500000
+Mumbai,2000,4,3,2,2,2,12000000
+Delhi,2200,4,4,3,2,2,11000000
+Hyderabad,1700,3,2,2,1,5,7000000
+Pune,1600,3,2,2,1,6,6000000
+Kolkata,1400,2,2,1,1,7,5000000

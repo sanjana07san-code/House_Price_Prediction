@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>House Price Prediction System</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+<body>
+
+<div class="container">
+
+    <h1>🏠 House Price Prediction System</h1>
+
+    <form action="/predict" method="POST">
+
+        <label>Select Location</label>
+        <select name="location" required>
+            <option value="">Choose Location</option>
+            <option>Chennai</option>
+            <option>Bangalore</option>
+            <option>Mumbai</option>
+            <option>Delhi</option>
+            <option>Hyderabad</option>
+            <option>Pune</option>
+            <option>Kolkata</option>
+        </select>
+
+        <label>House Area (Sq.Ft)</label>
+        <input
+            type="number"
+            name="area"
+            placeholder="Enter House Area in Sq.Ft (Example: 1500)"
+            required>
+
+        <label>Number of Bedrooms</label>
+        <input
+            type="number"
+            name="bedrooms"
+            placeholder="Enter Number of Bedrooms"
+            required>
+
+        <label>Number of Bathrooms</label>
+        <input
+            type="number"
+            name="bathrooms"
+            placeholder="Enter Number of Bathrooms"
+            required>
+
+        <label>Number of Floors</label>
+        <input
+            type="number"
+            name="floors"
+            placeholder="Enter Number of Floors"
+            required>
+
+        <label>Parking Spaces Available</label>
+        <input
+            type="number"
+            name="parking"
+            placeholder="Enter Parking Spaces"
+            required>
+
+        <label>House Age (Years)</label>
+        <input
+            type="number"
+            name="age"
+            placeholder="Enter House Age"
+            required>
+
+        <button type="submit">
+            Predict House Price
+        </button>
+
+    </form>
+
+</div>
+
+</body>
+</html>
